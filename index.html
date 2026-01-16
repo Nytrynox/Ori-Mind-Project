@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="effects.css">
 </head>
 <body>
     <!-- Navigation -->
@@ -43,131 +44,843 @@
         <a href="#waitlist" class="mobile-apply">Join Waitlist</a>
     </div>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-background">
-            <div class="hero-gradient-orb orb-1"></div>
-            <div class="hero-gradient-orb orb-2"></div>
-            <div class="hero-lines">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-            </div>
+    <!-- Hero Section - GitHub Style Premium -->
+    <section class="hero-premium">
+        <!-- Animated Background -->
+        <div class="hero-bg-effects">
+            <div class="gradient-sphere sphere-1"></div>
+            <div class="gradient-sphere sphere-2"></div>
+            <div class="gradient-sphere sphere-3"></div>
+            <div class="grid-overlay"></div>
+            <div class="noise-overlay"></div>
         </div>
-        <div class="hero-container">
-            <div class="hero-badge">
-                <span class="badge-dot"></span>
-                <span>Building the Future of AI Execution</span>
-            </div>
-            <h1 class="hero-title">
-                <span class="title-line">One Mind.</span>
-                <span class="title-line gradient-text">Infinite Intelligence.</span>
-            </h1>
-            <p class="hero-subtitle">We build the foundational intelligence systems that power autonomous AI products — enabling ideas to move directly into execution with real-world outcomes.</p>
-            <div class="hero-actions">
-                <a href="#waitlist" class="btn-primary">
-                    <span>Get Early Access</span>
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-                </a>
-                <a href="#about" class="btn-secondary">
-                    <span>Learn More</span>
-                </a>
-            </div>
-            <div class="hero-stats">
-                <div class="stat">
-                    <span class="stat-value">AI-First</span>
-                    <span class="stat-label">Architecture</span>
+
+        <div class="hero-main">
+            <div class="hero-text-content">
+                <div class="hero-eyebrow">
+                    <div class="eyebrow-dot"></div>
+                    <span>Intelligence Infrastructure for AI Products</span>
                 </div>
-                <div class="stat-divider"></div>
-                <div class="stat">
-                    <span class="stat-value">Autonomous</span>
-                    <span class="stat-label">Execution</span>
+                
+                <h1 class="hero-headline">
+                    <span class="headline-word">One</span>
+                    <span class="headline-word">Mind.</span>
+                    <br>
+                    <span class="headline-word highlight">Infinite</span>
+                    <span class="headline-word highlight">Intelligence.</span>
+                </h1>
+
+                <p class="hero-description">
+                    We build the foundational intelligence systems that power autonomous AI products — enabling ideas to move directly into execution with real-world outcomes.
+                </p>
+
+                <div class="hero-cta-group">
+                    <a href="#waitlist" class="hero-btn-primary">
+                        <span>Get Early Access</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                    <a href="#about" class="hero-btn-secondary">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                        <span>See How It Works</span>
+                    </a>
                 </div>
-                <div class="stat-divider"></div>
-                <div class="stat">
-                    <span class="stat-value">End-to-End</span>
-                    <span class="stat-label">Delivery</span>
-                </div>
-            </div>
-        </div>
-        <div class="hero-visual">
-            <div class="visual-container">
-                <div class="visual-glow"></div>
-                <div class="visual-card main-card">
-                    <div class="card-header">
-                        <div class="card-dots">
-                            <span></span><span></span><span></span>
-                        </div>
-                        <span class="card-title">OriMind Intelligence</span>
+
+                <div class="hero-metrics">
+                    <div class="metric-item">
+                        <span class="metric-value">100%</span>
+                        <span class="metric-label">Autonomous</span>
                     </div>
-                    <div class="card-content">
-                        <div class="ai-coding-animation">
-                            <div class="code-editor">
-                                <div class="editor-sidebar">
-                                    <div class="file-icon active"></div>
-                                    <div class="file-icon"></div>
-                                    <div class="file-icon"></div>
-                                </div>
-                                <div class="editor-main">
-                                    <div class="code-line">
-                                        <span class="line-num">1</span>
-                                        <span class="code-keyword">async</span> <span class="code-function">function</span> <span class="code-name">buildAgent</span><span class="code-bracket">()</span> <span class="code-bracket">{</span>
-                                    </div>
-                                    <div class="code-line">
-                                        <span class="line-num">2</span>
-                                        <span class="code-indent"></span><span class="code-keyword">const</span> <span class="code-var">intent</span> = <span class="code-keyword">await</span> <span class="code-method">analyze</span><span class="code-bracket">(</span><span class="code-string">"user request"</span><span class="code-bracket">)</span>;
-                                    </div>
-                                    <div class="code-line typing-line">
-                                        <span class="line-num">3</span>
-                                        <span class="code-indent"></span><span class="code-keyword">const</span> <span class="code-var">plan</span> = <span class="code-method">orchestrate</span><span class="code-bracket">(</span><span class="code-var">intent</span><span class="code-bracket">)</span>;<span class="cursor-blink">|</span>
-                                    </div>
-                                    <div class="code-line ai-generating">
-                                        <span class="line-num">4</span>
-                                        <span class="code-indent"></span><span class="ai-sparkle">
-                                            <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 0l1.5 5.5L15 7l-5.5 1.5L8 14l-1.5-5.5L1 7l5.5-1.5L8 0z"/></svg>
-                                        </span>
-                                        <span class="ai-text">AI generating execution code...</span>
-                                    </div>
-                                    <div class="code-line dim">
-                                        <span class="line-num">5</span>
-                                        <span class="code-indent"></span><span class="code-keyword">return</span> <span class="code-method">execute</span><span class="code-bracket">(</span><span class="code-var">plan</span><span class="code-bracket">)</span>;
-                                    </div>
-                                    <div class="code-line dim">
-                                        <span class="line-num">6</span>
-                                        <span class="code-bracket">}</span>
-                                    </div>
-                                </div>
+                    <div class="metric-item">
+                        <span class="metric-value">AI-First</span>
+                        <span class="metric-label">Architecture</span>
+                    </div>
+                    <div class="metric-item">
+                        <span class="metric-value">Zero</span>
+                        <span class="metric-label">Human Handoff</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3D Product Screenshot -->
+            <div class="hero-product-showcase">
+                <div class="showcase-container">
+                    <!-- Main Window -->
+                    <div class="product-window">
+                        <div class="window-bar">
+                            <div class="window-controls">
+                                <span></span>
+                                <span></span>
+                                <span></span>
                             </div>
-                            <div class="ai-status-bar">
-                                <div class="status-icon">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
-                                </div>
-                                <span class="status-text">OriMind AI Active</span>
-                                <div class="status-dots">
-                                    <span></span><span></span><span></span>
-                                </div>
+                            <div class="window-tabs">
+                                <span class="tab active">main.ts</span>
+                                <span class="tab">agent.ts</span>
+                                <span class="tab">config.json</span>
+                            </div>
+                            <div class="window-actions">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
                             </div>
                         </div>
+                        
+                        <div class="window-body">
+                            <div class="editor-sidebar">
+                                <div class="sidebar-icon active">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M13 2v7h7"/></svg>
+                                </div>
+                                <div class="sidebar-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+                                </div>
+                                <div class="sidebar-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                                </div>
+                                <div class="sidebar-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                                </div>
+                            </div>
+                            
+                            <div class="editor-main">
+                                <div class="code-line"><span class="ln">1</span><span class="kw">import</span> <span class="op">{</span> <span class="var">Agent</span> <span class="op">}</span> <span class="kw">from</span> <span class="str">'@orimind/core'</span></div>
+                                <div class="code-line"><span class="ln">2</span></div>
+                                <div class="code-line"><span class="ln">3</span><span class="kw">const</span> <span class="var">mind</span> <span class="op">=</span> <span class="kw">await</span> <span class="var">Agent</span><span class="op">.</span><span class="fn">create</span><span class="op">(</span><span class="str">'builder'</span><span class="op">)</span></div>
+                                <div class="code-line"><span class="ln">4</span></div>
+                                <div class="code-line"><span class="ln">5</span><span class="cm">// Natural language → Production code</span></div>
+                                <div class="code-line"><span class="ln">6</span><span class="kw">const</span> <span class="var">app</span> <span class="op">=</span> <span class="kw">await</span> <span class="var">mind</span><span class="op">.</span><span class="fn">build</span><span class="op">(</span><span class="str">`</span></div>
+                                <div class="code-line"><span class="ln">7</span><span class="str">  Create a SaaS dashboard with</span></div>
+                                <div class="code-line"><span class="ln">8</span><span class="str">  user authentication</span><span class="typing-indicator"><span></span><span></span><span></span></span></div>
+                                <div class="code-line"><span class="ln">9</span><span class="str">`</span><span class="op">)</span></div>
+                            </div>
+                            
+                            <!-- AI Panel -->
+                            <div class="ai-panel">
+                                <div class="ai-header">
+                                    <div class="ai-avatar">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/></svg>
+                                    </div>
+                                    <span>OriMind AI</span>
+                                    <div class="ai-status"></div>
+                                </div>
+                                <div class="ai-messages">
+                                    <div class="ai-message">✓ Intent parsed: SaaS dashboard</div>
+                                    <div class="ai-message">✓ Architecture planned: Next.js + Auth</div>
+                                    <div class="ai-message highlight">⚡ Generating 47 files...</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Terminal -->
+                        <div class="window-terminal">
+                            <span class="terminal-prompt">❯</span>
+                            <span class="terminal-cmd">orimind deploy --production</span>
+                            <div class="terminal-status">
+                                <span class="status-badge">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                                    Live
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Floating Cards -->
+                    <div class="float-cards">
+                        <div class="float-card card-1">
+                            <div class="card-icon green">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                            </div>
+                            <div>
+                                <div style="font-weight: 600;">Code Generated</div>
+                                <div style="font-size: 12px; color: #666;">47 files created</div>
+                            </div>
+                        </div>
+
+                        <div class="float-card card-2">
+                            <div class="card-icon purple">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                            </div>
+                            <div>
+                                <div style="font-weight: 600;">Deploying</div>
+                                <div style="font-size: 12px; color: #666;">Edge • Global CDN</div>
+                            </div>
+                        </div>
+
+                        <div class="float-card card-3">
+                            <div class="card-icon orange">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a9 9 0 0 1 9 9c0 3.1-1.6 5.8-4 7.4V21H7v-2.6C4.6 16.8 3 14.1 3 11a9 9 0 0 1 9-9z"/></svg>
+                            </div>
+                            <div>
+                                <div style="font-weight: 600;">AI Active</div>
+                                <div style="font-size: 12px; color: #666;">Building • Testing</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="visual-card floating-card card-1">
-                    <div class="mini-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a9 9 0 0 1 9 9c0 3.1-1.6 5.8-4 7.4V21a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-2.6C4.6 16.8 3 14.1 3 11a9 9 0 0 1 9-9z"/><path d="M12 6v2"/><path d="M9 9h6"/></svg>
-                    </div>
-                    <span>Intent Analysis</span>
-                </div>
-                <div class="visual-card floating-card card-2">
-                    <div class="mini-icon">
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Endless Scroll Marquee -->
+    <section class="endless-marquee">
+        <div class="marquee-row row-1">
+            <div class="marquee-track-new">
+                <div class="marquee-group">
+                    <div class="marquee-tag">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                        <span>Autonomous Execution</span>
                     </div>
-                    <span>Auto Execution</span>
-                </div>
-                <div class="visual-card floating-card card-3">
-                    <div class="mini-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                    <div class="marquee-tag">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                        <span>Real-Time Processing</span>
                     </div>
-                    <span>Delivered</span>
+                    <div class="marquee-tag">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/></svg>
+                        <span>AI-Native Architecture</span>
+                    </div>
+                    <div class="marquee-tag">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                        <span>Production Ready</span>
+                    </div>
+                    <div class="marquee-tag">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                        <span>Intent Understanding</span>
+                    </div>
+                    <div class="marquee-tag">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 1v6m0 6v10M1 12h6m6 0h10"/></svg>
+                        <span>Multi-Agent Systems</span>
+                    </div>
                 </div>
+                <div class="marquee-group" aria-hidden="true">
+                    <div class="marquee-tag">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                        <span>Autonomous Execution</span>
+                    </div>
+                    <div class="marquee-tag">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                        <span>Real-Time Processing</span>
+                    </div>
+                    <div class="marquee-tag">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/></svg>
+                        <span>AI-Native Architecture</span>
+                    </div>
+                    <div class="marquee-tag">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                        <span>Production Ready</span>
+                    </div>
+                    <div class="marquee-tag">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                        <span>Intent Understanding</span>
+                    </div>
+                    <div class="marquee-tag">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 1v6m0 6v10M1 12h6m6 0h10"/></svg>
+                        <span>Multi-Agent Systems</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="marquee-row row-2">
+            <div class="marquee-track-new reverse">
+                <div class="marquee-group">
+                    <div class="marquee-tag">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
+                        <span>Zero Human Handoff</span>
+                    </div>
+                    <div class="marquee-tag">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+                        <span>Full-Stack Apps</span>
+                    </div>
+                    <div class="marquee-tag">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                        <span>Team Collaboration</span>
+                    </div>
+                    <div class="marquee-tag">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22 22 0 0 1-4 2z"/></svg>
+                        <span>Instant Deploy</span>
+                    </div>
+                    <div class="marquee-tag">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                        <span>Enterprise Security</span>
+                    </div>
+                    <div class="marquee-tag">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="20" x2="12" y2="10"/><line x1="18" y1="20" x2="18" y2="4"/><line x1="6" y1="20" x2="6" y2="16"/></svg>
+                        <span>Built-in Analytics</span>
+                    </div>
+                </div>
+                <div class="marquee-group" aria-hidden="true">
+                    <div class="marquee-tag">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
+                        <span>Zero Human Handoff</span>
+                    </div>
+                    <div class="marquee-tag">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+                        <span>Full-Stack Apps</span>
+                    </div>
+                    <div class="marquee-tag">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                        <span>Team Collaboration</span>
+                    </div>
+                    <div class="marquee-tag">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22 22 0 0 1-4 2z"/></svg>
+                        <span>Instant Deploy</span>
+                    </div>
+                    <div class="marquee-tag">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                        <span>Enterprise Security</span>
+                    </div>
+                    <div class="marquee-tag">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="20" x2="12" y2="10"/><line x1="18" y1="20" x2="18" y2="4"/><line x1="6" y1="20" x2="6" y2="16"/></svg>
+                        <span>Built-in Analytics</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blur Text Scroller Effect -->
+    <section class="blur-text-section">
+        <div class="blur-text-container">
+            <div class="blur-text-wrapper">
+                <div class="blur-text-line" data-scroll-text>
+                    <span class="blur-word">Intelligence</span>
+                    <span class="blur-word">that</span>
+                    <span class="blur-word">executes</span>
+                    <span class="blur-word">autonomously</span>
+                </div>
+                <div class="blur-text-line" data-scroll-text>
+                    <span class="blur-word">From</span>
+                    <span class="blur-word">imagination</span>
+                    <span class="blur-word">to</span>
+                    <span class="blur-word">reality</span>
+                </div>
+                <div class="blur-text-line" data-scroll-text>
+                    <span class="blur-word">Zero</span>
+                    <span class="blur-word">human</span>
+                    <span class="blur-word">handoff</span>
+                    <span class="blur-word">required</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Prompt Chat Effect -->
+    <section class="ai-chat-section">
+        <div class="ai-chat-container">
+            <div class="chat-header">
+                <span class="section-badge">Live AI Demo</span>
+                <h2>See <span class="text-gradient">INFINALL</span> in Action</h2>
+                <p>Watch how AI transforms your prompts into reality</p>
+            </div>
+            <div class="chat-interface">
+                <div class="chat-window">
+                    <div class="chat-messages" id="chatMessages">
+                        <div class="chat-message user">
+                            <div class="message-avatar user-avatar">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+                            </div>
+                            <div class="message-content">
+                                <span class="typing-text" data-text="Build me a SaaS dashboard with analytics"></span>
+                            </div>
+                        </div>
+                        <div class="chat-message ai" data-delay="2000">
+                            <div class="message-avatar ai-avatar">
+                                <div class="ai-orb"></div>
+                            </div>
+                            <div class="message-content">
+                                <div class="ai-thinking">
+                                    <span class="thinking-dot"></span>
+                                    <span class="thinking-dot"></span>
+                                    <span class="thinking-dot"></span>
+                                </div>
+                                <div class="ai-response">
+                                    <p>Creating your SaaS dashboard...</p>
+                                    <div class="ai-actions">
+                                        <div class="action-item done">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                                            <span>Analyzing requirements</span>
+                                        </div>
+                                        <div class="action-item done">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                                            <span>Generating 47 components</span>
+                                        </div>
+                                        <div class="action-item active">
+                                            <div class="action-spinner"></div>
+                                            <span>Deploying to production</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat-input-area">
+                        <input type="text" placeholder="Describe what you want to build..." class="chat-input" readonly>
+                        <button class="chat-send">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="chat-preview">
+                    <div class="preview-window">
+                        <div class="preview-bar">
+                            <div class="preview-dots">
+                                <span></span><span></span><span></span>
+                            </div>
+                            <span class="preview-url">dashboard.yourapp.com</span>
+                        </div>
+                        <div class="preview-content">
+                            <div class="preview-skeleton">
+                                <div class="skeleton-header"></div>
+                                <div class="skeleton-grid">
+                                    <div class="skeleton-card pulse"></div>
+                                    <div class="skeleton-card pulse"></div>
+                                    <div class="skeleton-card pulse"></div>
+                                    <div class="skeleton-card pulse"></div>
+                                </div>
+                                <div class="skeleton-chart pulse"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Badges Effect -->
+    <section class="interactive-badges-section">
+        <div class="badges-container">
+            <div class="badges-header">
+                <span class="section-badge">Technologies</span>
+                <h2>Built with <span class="text-gradient">Modern Stack</span></h2>
+            </div>
+            <div class="badges-grid">
+                <div class="interactive-badge magnetic" data-magnetic>
+                    <div class="badge-glow"></div>
+                    <div class="badge-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                    </div>
+                    <span class="badge-label">Real-Time</span>
+                    <div class="badge-particles"></div>
+                </div>
+                <div class="interactive-badge magnetic" data-magnetic>
+                    <div class="badge-glow"></div>
+                    <div class="badge-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+                    </div>
+                    <span class="badge-label">Multi-Layer AI</span>
+                    <div class="badge-particles"></div>
+                </div>
+                <div class="interactive-badge magnetic" data-magnetic>
+                    <div class="badge-glow"></div>
+                    <div class="badge-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                    </div>
+                    <span class="badge-label">Lightning Fast</span>
+                    <div class="badge-particles"></div>
+                </div>
+                <div class="interactive-badge magnetic" data-magnetic>
+                    <div class="badge-glow"></div>
+                    <div class="badge-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    </div>
+                    <span class="badge-label">Enterprise Security</span>
+                    <div class="badge-particles"></div>
+                </div>
+                <div class="interactive-badge magnetic" data-magnetic>
+                    <div class="badge-glow"></div>
+                    <div class="badge-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M12 1v6m0 6v10M1 12h6m6 0h10"/></svg>
+                    </div>
+                    <span class="badge-label">Neural Networks</span>
+                    <div class="badge-particles"></div>
+                </div>
+                <div class="interactive-badge magnetic" data-magnetic>
+                    <div class="badge-glow"></div>
+                    <div class="badge-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+                    </div>
+                    <span class="badge-label">Scalable Infra</span>
+                    <div class="badge-particles"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3D Orbit Cards Section -->
+    <section class="orbit-cards-section">
+        <div class="orbit-container">
+            <div class="orbit-header">
+                <span class="section-badge">Capabilities</span>
+                <h2>Endless <span class="text-gradient">Possibilities</span></h2>
+            </div>
+            <div class="orbit-scene">
+                <div class="orbit-center">
+                    <div class="center-orb">
+                        <div class="orb-inner">O</div>
+                        <div class="orb-ring ring-1"></div>
+                        <div class="orb-ring ring-2"></div>
+                        <div class="orb-ring ring-3"></div>
+                    </div>
+                </div>
+                <div class="orbit-track track-1">
+                    <div class="orbit-card" style="--orbit-delay: 0s;">
+                        <div class="orbit-card-inner">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                            <span>Web Apps</span>
+                        </div>
+                    </div>
+                    <div class="orbit-card" style="--orbit-delay: -5s;">
+                        <div class="orbit-card-inner">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12" y2="18"/></svg>
+                            <span>Mobile</span>
+                        </div>
+                    </div>
+                    <div class="orbit-card" style="--orbit-delay: -10s;">
+                        <div class="orbit-card-inner">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/></svg>
+                            <span>APIs</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="orbit-track track-2">
+                    <div class="orbit-card" style="--orbit-delay: -2s;">
+                        <div class="orbit-card-inner">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>
+                            <span>Videos</span>
+                        </div>
+                    </div>
+                    <div class="orbit-card" style="--orbit-delay: -7s;">
+                        <div class="orbit-card-inner">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+                            <span>Images</span>
+                        </div>
+                    </div>
+                    <div class="orbit-card" style="--orbit-delay: -12s;">
+                        <div class="orbit-card-inner">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/></svg>
+                            <span>Docs</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="orbit-track track-3">
+                    <div class="orbit-card" style="--orbit-delay: -4s;">
+                        <div class="orbit-card-inner">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+                            <span>Database</span>
+                        </div>
+                    </div>
+                    <div class="orbit-card" style="--orbit-delay: -9s;">
+                        <div class="orbit-card-inner">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+                            <span>Deploy</span>
+                        </div>
+                    </div>
+                    <div class="orbit-card" style="--orbit-delay: -14s;">
+                        <div class="orbit-card-inner">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
+                            <span>Testing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sliding Squares Animation -->
+    <section class="sliding-squares-section">
+        <div class="squares-bg">
+            <div class="square-grid">
+                <div class="sliding-square" style="--delay: 0s; --x: 0; --y: 0;"></div>
+                <div class="sliding-square" style="--delay: 0.5s; --x: 1; --y: 0;"></div>
+                <div class="sliding-square" style="--delay: 1s; --x: 2; --y: 0;"></div>
+                <div class="sliding-square" style="--delay: 1.5s; --x: 3; --y: 0;"></div>
+                <div class="sliding-square" style="--delay: 0.3s; --x: 0; --y: 1;"></div>
+                <div class="sliding-square" style="--delay: 0.8s; --x: 1; --y: 1;"></div>
+                <div class="sliding-square" style="--delay: 1.3s; --x: 2; --y: 1;"></div>
+                <div class="sliding-square" style="--delay: 1.8s; --x: 3; --y: 1;"></div>
+                <div class="sliding-square" style="--delay: 0.6s; --x: 0; --y: 2;"></div>
+                <div class="sliding-square" style="--delay: 1.1s; --x: 1; --y: 2;"></div>
+                <div class="sliding-square" style="--delay: 1.6s; --x: 2; --y: 2;"></div>
+                <div class="sliding-square" style="--delay: 2.1s; --x: 3; --y: 2;"></div>
+            </div>
+        </div>
+        <div class="squares-content">
+            <h2>Building the<br><span class="text-gradient">Future of AI</span></h2>
+            <p>Intelligence infrastructure that transforms how software gets built</p>
+            <div class="squares-stats">
+                <div class="stat-block">
+                    <span class="stat-num counter" data-target="100">0</span><span class="stat-suffix">%</span>
+                    <span class="stat-text">Autonomous</span>
+                </div>
+                <div class="stat-block">
+                    <span class="stat-num counter" data-target="10">0</span><span class="stat-suffix">x</span>
+                    <span class="stat-text">Faster</span>
+                </div>
+                <div class="stat-block">
+                    <span class="stat-num counter" data-target="0">0</span><span class="stat-suffix"></span>
+                    <span class="stat-text">Human Handoff</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bento Grid Animation Section -->
+    <section class="bento-section">
+        <div class="bento-container">
+            <div class="bento-header">
+                <span class="section-badge">Features</span>
+                <h2>Everything You Need to <span class="text-gradient">Build Anything</span></h2>
+            </div>
+            <div class="bento-grid">
+                <div class="bento-card bento-large" data-tilt data-tilt-max="5">
+                    <div class="bento-glow"></div>
+                    <div class="bento-content">
+                        <div class="bento-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+                        </div>
+                        <h3>Multi-Agent Orchestration</h3>
+                        <p>Specialized AI agents work together seamlessly to handle complex tasks from start to finish.</p>
+                        <div class="bento-visual agents-visual">
+                            <div class="agent-node node-1"><span>Design</span></div>
+                            <div class="agent-node node-2"><span>Code</span></div>
+                            <div class="agent-node node-3"><span>Deploy</span></div>
+                            <div class="agent-lines"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bento-card bento-medium" data-tilt data-tilt-max="8">
+                    <div class="bento-glow purple"></div>
+                    <div class="bento-content">
+                        <div class="bento-icon purple">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                        </div>
+                        <h3>Full-Stack Generation</h3>
+                        <p>Complete applications with frontend, backend, and database.</p>
+                        <div class="bento-code">
+                            <code><span class="code-key">await</span> infinall.build()</code>
+                        </div>
+                    </div>
+                </div>
+                <div class="bento-card bento-small" data-tilt data-tilt-max="10">
+                    <div class="bento-glow green"></div>
+                    <div class="bento-content">
+                        <div class="bento-icon green">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                        </div>
+                        <h3>Instant Deploy</h3>
+                        <p>One-click production</p>
+                    </div>
+                </div>
+                <div class="bento-card bento-small" data-tilt data-tilt-max="10">
+                    <div class="bento-glow pink"></div>
+                    <div class="bento-content">
+                        <div class="bento-icon pink">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                        </div>
+                        <h3>Enterprise Ready</h3>
+                        <p>Bank-grade security</p>
+                    </div>
+                </div>
+                <div class="bento-card bento-wide" data-tilt data-tilt-max="5">
+                    <div class="bento-glow blue"></div>
+                    <div class="bento-content">
+                        <div class="bento-icon blue">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                        </div>
+                        <h3>Real-Time Streaming</h3>
+                        <p>Watch your application come to life as AI generates it in real-time. See every file, every line of code as it's created.</p>
+                        <div class="streaming-visual">
+                            <div class="stream-line"></div>
+                            <div class="stream-line"></div>
+                            <div class="stream-line"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3D Parallax Hallucination Effect -->
+    <section class="parallax-hallucination-section">
+        <div class="hallucination-container">
+            <div class="hallucination-layers">
+                <div class="h-layer layer-1" data-depth="0.1">
+                    <div class="h-shape shape-1"></div>
+                    <div class="h-shape shape-2"></div>
+                </div>
+                <div class="h-layer layer-2" data-depth="0.3">
+                    <div class="h-shape shape-3"></div>
+                    <div class="h-shape shape-4"></div>
+                </div>
+                <div class="h-layer layer-3" data-depth="0.5">
+                    <div class="h-shape shape-5"></div>
+                    <div class="h-shape shape-6"></div>
+                </div>
+                <div class="h-layer layer-4" data-depth="0.8">
+                    <div class="h-shape shape-7"></div>
+                </div>
+            </div>
+            <div class="hallucination-content">
+                <h2>Enter the <span class="glitch-text" data-text="Dimension">Dimension</span></h2>
+                <p>Where imagination becomes executable reality</p>
+                <div class="dimension-portal">
+                    <div class="portal-ring ring-outer"></div>
+                    <div class="portal-ring ring-middle"></div>
+                    <div class="portal-ring ring-inner"></div>
+                    <div class="portal-core">
+                        <span>∞</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Animated Web Gallery -->
+    <section class="web-gallery-section">
+        <div class="gallery-container">
+            <div class="gallery-header">
+                <span class="section-badge">Showcase</span>
+                <h2>Built with <span class="text-gradient">INFINALL</span></h2>
+                <p>Real applications created by AI in minutes</p>
+            </div>
+            <div class="gallery-carousel">
+                <div class="gallery-track">
+                    <div class="gallery-item">
+                        <div class="gallery-card">
+                            <div class="card-screen">
+                                <div class="screen-header">
+                                    <span class="screen-dot red"></span>
+                                    <span class="screen-dot yellow"></span>
+                                    <span class="screen-dot green"></span>
+                                </div>
+                                <div class="screen-content ecommerce">
+                                    <div class="mock-nav"></div>
+                                    <div class="mock-hero"></div>
+                                    <div class="mock-products">
+                                        <div class="mock-product"></div>
+                                        <div class="mock-product"></div>
+                                        <div class="mock-product"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-info">
+                                <h4>E-Commerce Platform</h4>
+                                <p>Full shopping experience</p>
+                                <span class="build-time">Built in 3 mins</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-card">
+                            <div class="card-screen">
+                                <div class="screen-header">
+                                    <span class="screen-dot red"></span>
+                                    <span class="screen-dot yellow"></span>
+                                    <span class="screen-dot green"></span>
+                                </div>
+                                <div class="screen-content dashboard">
+                                    <div class="mock-sidebar"></div>
+                                    <div class="mock-main">
+                                        <div class="mock-chart"></div>
+                                        <div class="mock-stats">
+                                            <div class="mock-stat"></div>
+                                            <div class="mock-stat"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-info">
+                                <h4>Analytics Dashboard</h4>
+                                <p>Data visualization suite</p>
+                                <span class="build-time">Built in 2 mins</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-card">
+                            <div class="card-screen">
+                                <div class="screen-header">
+                                    <span class="screen-dot red"></span>
+                                    <span class="screen-dot yellow"></span>
+                                    <span class="screen-dot green"></span>
+                                </div>
+                                <div class="screen-content social">
+                                    <div class="mock-stories"></div>
+                                    <div class="mock-feed">
+                                        <div class="mock-post"></div>
+                                        <div class="mock-post"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-info">
+                                <h4>Social Network</h4>
+                                <p>Community platform</p>
+                                <span class="build-time">Built in 5 mins</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-card">
+                            <div class="card-screen">
+                                <div class="screen-header">
+                                    <span class="screen-dot red"></span>
+                                    <span class="screen-dot yellow"></span>
+                                    <span class="screen-dot green"></span>
+                                </div>
+                                <div class="screen-content blog">
+                                    <div class="mock-blog-header"></div>
+                                    <div class="mock-article"></div>
+                                    <div class="mock-article"></div>
+                                </div>
+                            </div>
+                            <div class="card-info">
+                                <h4>Blog Platform</h4>
+                                <p>Content management</p>
+                                <span class="build-time">Built in 1 min</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-card">
+                            <div class="card-screen">
+                                <div class="screen-header">
+                                    <span class="screen-dot red"></span>
+                                    <span class="screen-dot yellow"></span>
+                                    <span class="screen-dot green"></span>
+                                </div>
+                                <div class="screen-content saas">
+                                    <div class="mock-saas-nav"></div>
+                                    <div class="mock-saas-content">
+                                        <div class="mock-pricing"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-info">
+                                <h4>SaaS Landing</h4>
+                                <p>Marketing website</p>
+                                <span class="build-time">Built in 2 mins</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-controls">
+                <button class="gallery-btn prev">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+                </button>
+                <div class="gallery-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <button class="gallery-btn next">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+                </button>
             </div>
         </div>
     </section>
@@ -450,115 +1163,175 @@
         </div>
     </section>
 
-    <!-- INFINALL Product Section -->
-    <section class="infinall-section" id="infinall">
-        <div class="infinall-container">
-            <div class="infinall-header">
-                <span class="section-badge">Our Product</span>
-                <div class="infinall-logo-large">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18.178 8c5.096 0 5.096 8 0 8-5.095 0-7.133-8-12.739-8-4.585 0-4.585 8 0 8 5.606 0 7.644-8 12.74-8z"/></svg>
+    <!-- INFINALL Product Section - Premium -->
+    <section class="product-section" id="infinall">
+        <div class="product-bg">
+            <div class="product-gradient"></div>
+            <div class="product-grid-bg"></div>
+        </div>
+        
+        <div class="product-container">
+            <!-- Section Header -->
+            <div class="product-header">
+                <div class="product-badge">
+                    <span class="badge-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18.178 8c5.096 0 5.096 8 0 8-5.095 0-7.133-8-12.739-8-4.585 0-4.585 8 0 8 5.606 0 7.644-8 12.74-8z"/></svg>
+                    </span>
+                    <span>Our Product</span>
                 </div>
-                <h2>INFINALL</h2>
-                <div class="beta-pill">BETA</div>
-                <p class="infinall-description">Autonomous AI that transforms natural language descriptions into complete, production-ready applications.</p>
+                
+                <div class="product-logo-showcase">
+                    <div class="logo-glow"></div>
+                    <div class="logo-icon">
+                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.5">
+                            <path d="M36.356 16c10.192 0 10.192 16 0 16-10.19 0-14.266-16-25.478-16-9.17 0-9.17 16 0 16 11.212 0 15.288-16 25.478-16z"/>
+                        </svg>
+                    </div>
+                    <h2 class="product-name">INFINALL</h2>
+                    <div class="product-status">
+                        <span class="status-dot pulse"></span>
+                        <span>BETA</span>
+                    </div>
+                </div>
+                
+                <p class="product-tagline">The world's first autonomous AI that transforms your ideas into complete, production-ready applications.</p>
             </div>
 
-            <div class="infinall-features">
-                <div class="infinall-feature-card">
-                    <div class="feature-icon-wrap">
+            <!-- How It Works - Horizontal Flow -->
+            <div class="product-flow">
+                <div class="flow-step">
+                    <div class="step-number">01</div>
+                    <div class="step-icon">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
                     </div>
-                    <h4>Describe Your Vision</h4>
-                    <p>Tell INFINALL what you want to build in plain language</p>
+                    <h4>Describe</h4>
+                    <p>Tell INFINALL what you want in plain English</p>
                 </div>
-                <div class="infinall-feature-card">
-                    <div class="feature-icon-wrap">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M12 1v4"/><path d="M12 19v4"/><path d="M4.22 4.22l2.83 2.83"/><path d="M16.95 16.95l2.83 2.83"/><path d="M1 12h4"/><path d="M19 12h4"/><path d="M4.22 19.78l2.83-2.83"/><path d="M16.95 7.05l2.83-2.83"/></svg>
+                <div class="flow-connector">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </div>
+                <div class="flow-step">
+                    <div class="step-number">02</div>
+                    <div class="step-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M12 1v6m0 6v10M1 12h6m6 0h10"/></svg>
                     </div>
-                    <h4>AI Agents Coordinate</h4>
-                    <p>Specialized agents handle design, development, and content</p>
+                    <h4>AI Orchestrates</h4>
+                    <p>Specialized agents coordinate the entire build</p>
                 </div>
-                <div class="infinall-feature-card">
-                    <div class="feature-icon-wrap">
+                <div class="flow-connector">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </div>
+                <div class="flow-step">
+                    <div class="step-number">03</div>
+                    <div class="step-icon">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/></svg>
                     </div>
-                    <h4>Receive Your Output</h4>
-                    <p>Complete applications, videos, and content—deployed automatically</p>
+                    <h4>Receive & Deploy</h4>
+                    <p>Complete applications, deployed automatically</p>
                 </div>
             </div>
 
-            <!-- Agent Cards -->
-            <div class="agents-showcase">
-                <div class="agent-card-new coding" data-tilt data-tilt-max="5">
-                    <div class="agent-header">
-                        <div class="agent-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            <!-- Agent Cards - Bento Grid -->
+            <div class="agents-grid">
+                <!-- Main Coding Agent Card -->
+                <div class="agent-card main-agent" data-tilt data-tilt-max="5">
+                    <div class="card-glow"></div>
+                    <div class="card-content">
+                        <div class="agent-badge coding">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                            <span>Coding Agent</span>
                         </div>
-                        <div class="agent-title">
-                            <h4>Coding Agent</h4>
-                            <span>Production-ready applications</span>
-                        </div>
-                    </div>
-                    <div class="agent-visual">
-                        <div class="code-preview">
-                            <div class="code-header">
-                                <span class="dot red"></span>
-                                <span class="dot yellow"></span>
-                                <span class="dot green"></span>
+                        <h3>Full-Stack Applications</h3>
+                        <p>From simple landing pages to complex SaaS platforms—deployed to production in minutes.</p>
+                        
+                        <div class="agent-demo">
+                            <div class="demo-window">
+                                <div class="demo-bar">
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                </div>
+                                <div class="demo-code">
+                                    <code><span class="key">const</span> app = <span class="fn">INFINALL</span>.create()</code>
+                                    <code><span class="key">await</span> app.<span class="fn">build</span>(<span class="str">"E-commerce store"</span>)</code>
+                                    <code class="comment">// → 47 files generated</code>
+                                    <code class="comment">// → Tests passing</code>
+                                    <code class="comment">// → Deployed to production ✓</code>
+                                </div>
                             </div>
-                            <div class="code-lines">
-                                <div class="code-line"><span class="keyword">const</span> app = <span class="function">createApp</span>();</div>
-                                <div class="code-line"><span class="keyword">await</span> app.<span class="function">deploy</span>();</div>
-                                <div class="code-line comment">// Live in seconds</div>
-                            </div>
                         </div>
-                    </div>
-                    <div class="agent-tags">
-                        <span>Websites</span>
-                        <span>Web Apps</span>
-                        <span>APIs</span>
+                        
+                        <div class="agent-capabilities">
+                            <span>React</span>
+                            <span>Next.js</span>
+                            <span>Node.js</span>
+                            <span>APIs</span>
+                            <span>Databases</span>
+                        </div>
                     </div>
                 </div>
 
-                <div class="agent-card-new content" data-tilt data-tilt-max="5">
-                    <div class="agent-header">
-                        <div class="agent-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+                <!-- Content Agent Card -->
+                <div class="agent-card content-agent" data-tilt data-tilt-max="5">
+                    <div class="card-glow pink"></div>
+                    <div class="card-content">
+                        <div class="agent-badge content">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+                            <span>Content Agent</span>
                         </div>
-                        <div class="agent-title">
-                            <h4>Content Agent</h4>
-                            <span>Videos, images & auto-publish</span>
-                        </div>
-                    </div>
-                    <div class="agent-visual">
-                        <div class="media-preview">
-                            <div class="media-stack">
-                                <div class="media-item video">
-                                    <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
-                                </div>
-                                <div class="media-item image">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
-                                </div>
-                                <div class="media-item post">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-                                </div>
+                        <h3>Videos & Media</h3>
+                        <p>AI-generated videos, images, and social media content—auto-published everywhere.</p>
+                        
+                        <div class="media-showcase">
+                            <div class="media-item video">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                                <span>Video</span>
+                            </div>
+                            <div class="media-item image">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+                                <span>Images</span>
+                            </div>
+                            <div class="media-item social">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                                <span>Posts</span>
                             </div>
                         </div>
+                        
+                        <div class="agent-capabilities">
+                            <span>YouTube</span>
+                            <span>TikTok</span>
+                            <span>Instagram</span>
+                            <span>Twitter</span>
+                        </div>
                     </div>
-                    <div class="agent-tags">
-                        <span>Marketing</span>
-                        <span>Videos</span>
-                        <span>Social</span>
+                </div>
+
+                <!-- Stats Card -->
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
                     </div>
+                    <div class="stat-value">10x</div>
+                    <div class="stat-label">Faster Than Manual</div>
+                </div>
+
+                <!-- Stats Card 2 -->
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                    </div>
+                    <div class="stat-value">100%</div>
+                    <div class="stat-label">Production Ready</div>
                 </div>
             </div>
 
-            <div class="infinall-cta-wrap">
-                <a href="https://www.infinall.ai/" target="_blank" class="infinall-cta-btn">
-                    <span>Visit infinall.ai</span>
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            <!-- CTA -->
+            <div class="product-cta">
+                <a href="https://www.infinall.ai/" target="_blank" class="product-cta-btn">
+                    <span>Try INFINALL Free</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
                 </a>
-                <p class="infinall-tagline">The world's first end-to-end AI execution ecosystem</p>
+                <p class="cta-subtext">No credit card required • Start building in seconds</p>
             </div>
         </div>
     </section>
@@ -653,6 +1426,420 @@
                 </a>
             </div>
         </div>
+    </section>
+
+    <!-- ===== NEW VISUAL EFFECTS SECTIONS ===== -->
+
+    <!-- Blur Text Scroller Section -->
+    <section class="blur-text-section">
+        <div class="blur-text-container">
+            <div class="blur-text-track">
+                <span class="blur-text-word" data-blur>AUTONOMOUS</span>
+                <span class="blur-text-word" data-blur>INTELLIGENCE</span>
+                <span class="blur-text-word" data-blur>EXECUTION</span>
+                <span class="blur-text-word" data-blur>INFINITE</span>
+                <span class="blur-text-word" data-blur>ORIMIND</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Chat Prompt Effect Section -->
+    <section class="ai-chat-section">
+        <div class="ai-chat-container">
+            <div class="section-badge">AI Experience</div>
+            <h2>Talk to <span class="text-gradient">Intelligence</span></h2>
+            <div class="ai-chat-window">
+                <div class="chat-header">
+                    <div class="chat-avatar">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/></svg>
+                    </div>
+                    <span>OriMind AI</span>
+                    <div class="chat-status-dot"></div>
+                </div>
+                <div class="chat-messages">
+                    <div class="chat-message user">
+                        <span>Build me a complete e-commerce platform</span>
+                    </div>
+                    <div class="chat-message ai">
+                        <div class="ai-typing">
+                            <span class="ai-text" data-text="Analyzing requirements..."></span>
+                            <span class="typing-cursor"></span>
+                        </div>
+                    </div>
+                    <div class="chat-message ai delayed" data-delay="1">
+                        <span class="ai-response">✓ Architecture designed • 47 files generated</span>
+                    </div>
+                    <div class="chat-message ai delayed" data-delay="2">
+                        <span class="ai-response">✓ Frontend built • Backend deployed • Live!</span>
+                    </div>
+                </div>
+                <div class="chat-input">
+                    <input type="text" placeholder="Describe what you want to build..." readonly>
+                    <button class="chat-send">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Animated Badges Section -->
+    <section class="badges-section">
+        <div class="badges-container">
+            <div class="section-badge">Capabilities</div>
+            <h2>Powered by <span class="text-gradient">Innovation</span></h2>
+            <div class="badges-grid">
+                <div class="interactive-badge" data-badge="ai">
+                    <div class="badge-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2a9 9 0 0 1 9 9c0 3.1-1.6 5.8-4 7.4V21H7v-2.6C4.6 16.8 3 14.1 3 11a9 9 0 0 1 9-9z"/><path d="M9 18h6"/></svg>
+                    </div>
+                    <span class="badge-label">AI-Native</span>
+                    <div class="badge-glow"></div>
+                    <div class="badge-particles"></div>
+                </div>
+                <div class="interactive-badge" data-badge="speed">
+                    <div class="badge-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                    </div>
+                    <span class="badge-label">Lightning Fast</span>
+                    <div class="badge-glow"></div>
+                    <div class="badge-particles"></div>
+                </div>
+                <div class="interactive-badge" data-badge="secure">
+                    <div class="badge-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    </div>
+                    <span class="badge-label">Enterprise Secure</span>
+                    <div class="badge-glow"></div>
+                    <div class="badge-particles"></div>
+                </div>
+                <div class="interactive-badge" data-badge="auto">
+                    <div class="badge-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M12 1v6m0 6v10M1 12h6m6 0h10"/></svg>
+                    </div>
+                    <span class="badge-label">100% Autonomous</span>
+                    <div class="badge-glow"></div>
+                    <div class="badge-particles"></div>
+                </div>
+                <div class="interactive-badge" data-badge="scale">
+                    <div class="badge-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+                    </div>
+                    <span class="badge-label">Infinite Scale</span>
+                    <div class="badge-glow"></div>
+                    <div class="badge-particles"></div>
+                </div>
+                <div class="interactive-badge" data-badge="deploy">
+                    <div class="badge-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/></svg>
+                    </div>
+                    <span class="badge-label">Auto Deploy</span>
+                    <div class="badge-glow"></div>
+                    <div class="badge-particles"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Animated Web Gallery Section -->
+    <section class="gallery-section">
+        <div class="gallery-container">
+            <div class="section-badge">Showcase</div>
+            <h2>Built with <span class="text-gradient">OriMind</span></h2>
+            <div class="gallery-3d">
+                <div class="gallery-item" data-gallery>
+                    <div class="gallery-card">
+                        <div class="gallery-preview">
+                            <div class="preview-mockup dashboard">
+                                <div class="mockup-header"></div>
+                                <div class="mockup-sidebar"></div>
+                                <div class="mockup-content">
+                                    <div class="mockup-card"></div>
+                                    <div class="mockup-card"></div>
+                                    <div class="mockup-chart"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-info">
+                            <h4>SaaS Dashboard</h4>
+                            <p>Complete analytics platform</p>
+                        </div>
+                    </div>
+                    <div class="gallery-reflection"></div>
+                </div>
+                <div class="gallery-item" data-gallery>
+                    <div class="gallery-card">
+                        <div class="gallery-preview">
+                            <div class="preview-mockup ecommerce">
+                                <div class="mockup-header"></div>
+                                <div class="mockup-grid">
+                                    <div class="mockup-product"></div>
+                                    <div class="mockup-product"></div>
+                                    <div class="mockup-product"></div>
+                                    <div class="mockup-product"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-info">
+                            <h4>E-Commerce Store</h4>
+                            <p>Full shopping experience</p>
+                        </div>
+                    </div>
+                    <div class="gallery-reflection"></div>
+                </div>
+                <div class="gallery-item" data-gallery>
+                    <div class="gallery-card">
+                        <div class="gallery-preview">
+                            <div class="preview-mockup social">
+                                <div class="mockup-header"></div>
+                                <div class="mockup-feed">
+                                    <div class="mockup-post"></div>
+                                    <div class="mockup-post"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-info">
+                            <h4>Social Platform</h4>
+                            <p>Complete social network</p>
+                        </div>
+                    </div>
+                    <div class="gallery-reflection"></div>
+                </div>
+                <div class="gallery-item" data-gallery>
+                    <div class="gallery-card">
+                        <div class="gallery-preview">
+                            <div class="preview-mockup ai-app">
+                                <div class="mockup-header"></div>
+                                <div class="mockup-chat">
+                                    <div class="mockup-message"></div>
+                                    <div class="mockup-message ai"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-info">
+                            <h4>AI Assistant</h4>
+                            <p>Conversational interface</p>
+                        </div>
+                    </div>
+                    <div class="gallery-reflection"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3D Orbit Cards Section -->
+    <section class="orbit-section">
+        <div class="orbit-container">
+            <div class="section-badge">Ecosystem</div>
+            <h2>The <span class="text-gradient">OriMind</span> Universe</h2>
+            <div class="orbit-stage">
+                <div class="orbit-center">
+                    <div class="orbit-core">
+                        <div class="logo-square large">O</div>
+                    </div>
+                    <div class="orbit-pulse"></div>
+                    <div class="orbit-pulse delay-1"></div>
+                    <div class="orbit-pulse delay-2"></div>
+                </div>
+                <div class="orbit-ring ring-1">
+                    <div class="orbit-card" data-orbit="0">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                        <span>Code</span>
+                    </div>
+                    <div class="orbit-card" data-orbit="1">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                        <span>Chat</span>
+                    </div>
+                    <div class="orbit-card" data-orbit="2">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+                        <span>Media</span>
+                    </div>
+                    <div class="orbit-card" data-orbit="3">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                        <span>Secure</span>
+                    </div>
+                </div>
+                <div class="orbit-ring ring-2">
+                    <div class="orbit-card small" data-orbit="0">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/></svg>
+                    </div>
+                    <div class="orbit-card small" data-orbit="1">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                    </div>
+                    <div class="orbit-card small" data-orbit="2">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                    </div>
+                    <div class="orbit-card small" data-orbit="3">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+                    </div>
+                    <div class="orbit-card small" data-orbit="4">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="20" x2="12" y2="10"/><line x1="18" y1="20" x2="18" y2="4"/><line x1="6" y1="20" x2="6" y2="16"/></svg>
+                    </div>
+                    <div class="orbit-card small" data-orbit="5">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sliding Squares Section -->
+    <section class="squares-section">
+        <div class="squares-container">
+            <div class="squares-content">
+                <div class="section-badge">Technology</div>
+                <h2>Endless <span class="text-gradient">Possibilities</span></h2>
+                <p>Our AI infrastructure adapts and evolves continuously</p>
+            </div>
+            <div class="sliding-squares">
+                <div class="squares-row row-1">
+                    <div class="sliding-square"></div>
+                    <div class="sliding-square"></div>
+                    <div class="sliding-square"></div>
+                    <div class="sliding-square"></div>
+                    <div class="sliding-square"></div>
+                    <div class="sliding-square"></div>
+                    <div class="sliding-square"></div>
+                    <div class="sliding-square"></div>
+                </div>
+                <div class="squares-row row-2">
+                    <div class="sliding-square"></div>
+                    <div class="sliding-square"></div>
+                    <div class="sliding-square"></div>
+                    <div class="sliding-square"></div>
+                    <div class="sliding-square"></div>
+                    <div class="sliding-square"></div>
+                    <div class="sliding-square"></div>
+                    <div class="sliding-square"></div>
+                </div>
+                <div class="squares-row row-3">
+                    <div class="sliding-square"></div>
+                    <div class="sliding-square"></div>
+                    <div class="sliding-square"></div>
+                    <div class="sliding-square"></div>
+                    <div class="sliding-square"></div>
+                    <div class="sliding-square"></div>
+                    <div class="sliding-square"></div>
+                    <div class="sliding-square"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bento Grid Section -->
+    <section class="bento-section">
+        <div class="bento-container">
+            <div class="section-badge">Features</div>
+            <h2>The Complete <span class="text-gradient">AI Stack</span></h2>
+            <div class="bento-grid">
+                <div class="bento-item large" data-bento>
+                    <div class="bento-content">
+                        <div class="bento-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+                        </div>
+                        <h3>Multi-Layer AI</h3>
+                        <p>Deep neural networks that understand context at every level</p>
+                    </div>
+                    <div class="bento-visual layers">
+                        <div class="layer"></div>
+                        <div class="layer"></div>
+                        <div class="layer"></div>
+                    </div>
+                </div>
+                <div class="bento-item" data-bento>
+                    <div class="bento-content">
+                        <div class="bento-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                        </div>
+                        <h3>Instant Deploy</h3>
+                        <p>Zero to production in seconds</p>
+                    </div>
+                    <div class="bento-visual speed">
+                        <div class="speed-line"></div>
+                        <div class="speed-line"></div>
+                        <div class="speed-line"></div>
+                    </div>
+                </div>
+                <div class="bento-item" data-bento>
+                    <div class="bento-content">
+                        <div class="bento-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                        </div>
+                        <h3>24/7 Active</h3>
+                        <p>Always-on intelligence</p>
+                    </div>
+                    <div class="bento-visual clock">
+                        <div class="clock-hand"></div>
+                    </div>
+                </div>
+                <div class="bento-item tall" data-bento>
+                    <div class="bento-content">
+                        <div class="bento-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                        </div>
+                        <h3>Enterprise Security</h3>
+                        <p>Bank-grade encryption and compliance</p>
+                    </div>
+                    <div class="bento-visual shield">
+                        <div class="shield-pulse"></div>
+                    </div>
+                </div>
+                <div class="bento-item wide" data-bento>
+                    <div class="bento-content">
+                        <div class="bento-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M12 1v6m0 6v10M1 12h6m6 0h10"/></svg>
+                        </div>
+                        <h3>Multi-Agent Orchestration</h3>
+                        <p>Specialized AI agents working in harmony to execute complex tasks</p>
+                    </div>
+                    <div class="bento-visual agents">
+                        <div class="agent-dot"></div>
+                        <div class="agent-dot"></div>
+                        <div class="agent-dot"></div>
+                        <div class="agent-connection"></div>
+                    </div>
+                </div>
+                <div class="bento-item" data-bento>
+                    <div class="bento-content">
+                        <div class="bento-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="12" y1="20" x2="12" y2="10"/><line x1="18" y1="20" x2="18" y2="4"/><line x1="6" y1="20" x2="6" y2="16"/></svg>
+                        </div>
+                        <h3>Analytics</h3>
+                        <p>Deep insights into AI performance</p>
+                    </div>
+                    <div class="bento-visual chart">
+                        <div class="chart-bar"></div>
+                        <div class="chart-bar"></div>
+                        <div class="chart-bar"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3D Parallax / Hallucinatory Effect Section -->
+    <section class="parallax-hallucination-section">
+        <div class="parallax-layers">
+            <div class="parallax-layer" data-depth="0.1">
+                <div class="hallu-shape shape-1"></div>
+                <div class="hallu-shape shape-2"></div>
+            </div>
+            <div class="parallax-layer" data-depth="0.3">
+                <div class="hallu-shape shape-3"></div>
+                <div class="hallu-shape shape-4"></div>
+            </div>
+            <div class="parallax-layer" data-depth="0.5">
+                <div class="hallu-shape shape-5"></div>
+            </div>
+            <div class="parallax-layer" data-depth="0.8">
+                <div class="hallu-shape shape-6"></div>
+            </div>
+        </div>
+        <div class="parallax-content">
+            <h2>Beyond <span class="text-gradient">Imagination</span></h2>
+            <p>Where AI meets infinite creativity</p>
+        </div>
+        <div class="hallu-overlay"></div>
     </section>
 
     <!-- Footer -->
